@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Trisha P.</title>
+
+      <link href="css/style.css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
+
+  </head>
+
+  <body>
+    <header>
+        <div id="pic-header">
+            <img src="img/me-crop.jpg" alt="me" width="80%">
+            <h1>TRISHA SALANGSANG</h1>
+            <i class="fas fa-pen-nib"></i><h6>Graphic Designer, Web Developer</h6>
+            <div id="menu">
+                <a href="#info">About Me</a>
+                <a href="#education">Education</a>
+                <a href="#interest">Interests</a>
+                <a href="#contact-form">Contact Me</a>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+      <section id="info">
+        <div id="about">
+          <h2>About Me</h2>
+          <p>
+           My name is Trisha Pearl Salangsang. Currently taking up Computer Programming in Seneca College in Toronto. Before challenging myself in programming, I am a Graphic Designer by profession. I have been interested in programming even before I started arts. I like designing different creative outputs like posts, gif, video editing, prints and more. My work experience has primarily been in technology companies, which is one of the factors that prompted me to pursue a career in computer programming.
+          </p>
+
+        </div>
+        <div id="basic">
+          <h2>Basic Information</h2>
+
+          <div class="info-table">
+          <div class="basic-info">
+            <div class="basic-id">Age:</div>
+            <div class="basic-det">24</div>
+          </div>
+          <div class="basic-info">
+            <div class="basic-id">Email:</div>
+            <div class="basic-det">tpnsalangsang@myseneca.ca</div>
+          </div>
+          <div class="basic-info">
+            <div class="basic-id">Languange:</div>
+            <div class="basic-det">English, Filipino, Korean</div>
+          </div>
+
+          <div class="basic-info">
+            <div class="basic-id">City:</div>
+            <div class="basic-det">Toronto</div>
+          </div>
+
+          </div>
+          
+
+
+        </div>
+        <p>
+          I came from the Philippines before coming to Toronto. I have lived all my life with my family and me travelling to the other side of the world alone is a great challenge for me. Other than designing and coding, I like taking photos, videos and travelling. I also enjoy watching films and series as well as listening to different genres of music.
+          
+        </p>
+
+        <div class="download">
+          <a href="files/portfolio.pdf" download>Portfolio</a>
+          <a href="files/resume.pdf" download>Resume</a>
+        </div>
+      </section>
+
+      <!-- EDUCATION -->
+      <section id="education">
+        <h2>Education</h2>
+
+        <div class="edu-flex">
+          <div class="edu-container">
+            <div class="edu-id">
+              2021 - 2022 (expected)<br>
+              <b>Diploma</b>
+            </div>
+            <div class="edu-desc">
+              SENECA COLLEGE<br>
+
+              <i>Toronto, Canada</i><br><br>
+
+              Computer Programming<br>
+            </div>
+          </div>
+
+          <div class="edu-container">
+            <div class="edu-id">
+              2013 - 2017<br>
+              <b>Bachelor's Degree</b>
+            </div>
+            <div class="edu-desc">
+              
+              DE LA SALLE-COLLEGE<br>OF SAINT BENILDE<br>
+
+              <i>Manila, Philippines</i><br><br>
+
+              Multimedia Arts<br>
+            </div>
+         </div>
+
+         <div class="edu-container">
+          <div class="edu-id">
+            2009 - 2013<br>
+            <b>High School</b>
+          </div>
+          <div class="edu-desc">
+            Dominican College Santa Rosa<br>
+
+            <i>Laguna, Philippines</i><br><br>
+          </div>
+          
+       </div>
+       </div>
+        
+        
+      </section>
+
+      <!-- INTERESTS -->
+        <section id="interest">
+
+          <h2>Interests</h2>
+
+          <div class="interest-box">
+            <div class="in-log">
+              <div class="shake-little"><div class="in-img"><img src="img/graphic.png" alt="graphic"></div></div>
+              <div class="in-title">Graphic Design</div>
+            </div>
+            <div class="in-log">
+              <div class="shake-little"><div class="in-img"><img src="img/code.png" alt="code"></div></div>
+              <div class="in-title">Coding</div>
+            </div>
+            <div class="in-log">
+              <div class="shake-little"><div class="in-img"><img src="img/photo.png" alt="photo"></div></div>
+              <div class="in-title">Photography</div>
+            </div>
+            <div class="in-log">
+              <div class="shake-little"><div class="in-img"><img src="img/video.png" alt="video"></div></div>
+              <div class="in-title">Video</div>
+            </div>
+            <div class="in-log">
+              <div class="shake-little"><div class="in-img"><img src="img/music.png" alt="music"></div></div>
+              <div class="in-title">Music</div>
+            </div>
+            <div class="in-log">
+              <div class="shake-little"><div class="in-img"><img src="img/travel.png" alt="travel"></div></div>
+              <div class="in-title">Travel</div>
+            </div>
+  
+            </div>
+
+
+        </section>
+
+      <!-- FORM -->
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form" method="POST" action="https://httpbin.org/post">
+          <label>Name:</label> <input type="text" name="name" placeholder="Enter name here"> <br>
+          <label>Email Address:</label><input type="email" name="email" placeholder="Enter email here" required> <br>
+          <label>Address:</label> <input type="text" name="address" placeholder="Enter address here"> <br>
+          <label>City:</label><input type="text" list="city" name="city" placeholder="Enter city here"> <br>
+          <datalist id="city">
+            <option value="Toronto">
+            <option value="Ottawa">
+            <option value="Vancouver">
+            <option value="Quebec City">
+            <option value="Montreal">
+            <option value="Calgary">
+          </datalist>
+          <label>Postal Code:</label><input type="text" name="postal" placeholder="Enter valid Postal Code"> <br>
+          <ul>
+            <li><input type="radio" name="contactquery" id="cq-1" value="question" onclick="validateHiring();">Question</li>
+            <li><input type="radio" name="contactquery" id="cq-2" value="comment" onclick="validateHiring();">Comment</li>
+            <li><input type="radio" name="contactquery" id="cq-3" value="hiring" onclick="validateHiring();">Hiring</li>
+        </ul>
+          <div id="hiring-input" style="display: none">
+            <label>Hourly Charge:</label><input type="number" name="hourly">
+          </div>
+          <label>Message:</label><br><textarea name="message" id="message" cols="50" rows="5" placeholder="Enter your message here"></textarea><br><br>
+          <input type="submit" value="Send"> <input type="reset" value="Clear"><br><br>
+
+          <div id="errormess"></div>
+      </form>
+      </section>
+      
+    </main>
+
+    <footer>
+      <a href="#">Back to top &#11014;&#65039;</a><br><br>
+      <hr>
+      <p>Trisha Pearl Napone Salangsang<br>
+      ID# 130499205</p>
+    </footer>
+
+    <!-- JS files -->
+
+    <script>
+
+window.onload=function(){
+        var form = document.getElementById("contact-form");
+        form.onsubmit=function(){
+        
+          var form = document.getElementById("contact-form");
+          var pattern = /^[ABCEGHJKLMNPRSTVXYabceghjklmnprstvxy]{1}\d{1}[A-Za-z]{1} *\d{1}[A-Za-z]{1}\d{1}$/;
+          var postal = form.postal.value;
+          var error = document.getElementById("errormess");
+
+          if(pattern.test(postal)){
+              return true;
+            }
+          else{
+            
+            error.innerHTML = postal+ " is invalid!";
+           error.style.padding = '5px';
+           error.style.backgroundColor='#EE6366';
+           error.style.color = 'white';
+           error.style.borderRadius = '10px';
+           error.style.textAlign = 'center';
+
+
+
+            return false;
+          }
+        }
+
+      }
+
+     function validateHiring(){
+      var radio = document.getElementById("cq-3");
+        var hiring = document.getElementById("hiring-input");
+
+            if (radio.checked) {
+              hiring.style.display = "block";
+            }
+            else{
+              hiring.style.display = "none";
+            }
+     }
+
+
+    </script>
+  </body>
+</html>
