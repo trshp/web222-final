@@ -33,6 +33,12 @@ body{
     color:#C94249;
 }
 
+#pic-header img{
+  border-radius: 10px;
+  border: 2px dashed rgb(17, 144, 199);
+  padding:10px;
+}
+
 #menu{
     display: flex;
     flex-wrap: wrap;
